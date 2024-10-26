@@ -1,0 +1,19 @@
+{
+  "name": "vanilla-nodejs-crash",
+  "version": "1.0.0",
+  "description": "A REST API using Node.js only",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --env-file=.env server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "uuid": "^10.0.0"
+  }
+}
